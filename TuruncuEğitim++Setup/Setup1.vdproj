@@ -958,12 +958,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4E8ECE8D3A7C5858CAAB264F74168235"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A6923598AA344E6D825EFA600571C5F8"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1723,6 +1717,12 @@
         "OwnerKey" = "8:_72F4135525CEA750D9265FAD64DE71B2"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4E8ECE8D3A7C5858CAAB264F74168235"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -1741,6 +1741,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -1757,6 +1765,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -5861,15 +5877,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Turuncu Eğitim++"
-        "ProductCode" = "8:{3FEC3158-91A2-4B77-BF0F-0CE1DAE3AF5C}"
-        "PackageCode" = "8:{18E0F144-04D3-4308-AD3A-0ECF635F7EFC}"
+        "ProductCode" = "8:{DFC21CF4-AA92-44F5-8C83-249C0896263E}"
+        "PackageCode" = "8:{F5E267FE-6BAF-4C1A-9358-BFDF2274490C}"
         "UpgradeCode" = "8:{2CABBD93-EBE1-49A0-AB1E-534986A04B26}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.1.0"
+        "ProductVersion" = "8:2.2.0"
         "Manufacturer" = "8:Mehmet Ali DAL"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -5877,7 +5893,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:Mehmet Ali DAL"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:2.1.0"
+        "ARPCOMMENTS" = "8:2.2.0"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_E28BB8C7B0A34209BB568225EFD87FE2"
         "ARPIconIndex" = "3:0"
