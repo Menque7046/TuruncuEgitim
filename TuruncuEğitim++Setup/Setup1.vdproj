@@ -675,6 +675,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B6833A1192C65ACDC0851E784C4D9B81"
+        "OwnerKey" = "8:_A6923598AA344E6D825EFA600571C5F8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B7C744B75B79CB855A1EAAE07DC7C5AB"
         "OwnerKey" = "8:_A6923598AA344E6D825EFA600571C5F8"
         "MsmSig" = "8:_UNDEFINED"
@@ -959,6 +965,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_A6923598AA344E6D825EFA600571C5F8"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_B6833A1192C65ACDC0851E784C4D9B81"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -1748,6 +1760,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -1772,6 +1792,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -4685,6 +4713,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B6833A1192C65ACDC0851E784C4D9B81"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:AdvancedDataGridView, Version=0.1.0.10, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B6833A1192C65ACDC0851E784C4D9B81"
+                    {
+                    "Name" = "8:AdvancedDataGridView.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:AdvancedDataGridView.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C24BF233A0694D8398CE284D062B29F4"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B7C744B75B79CB855A1EAAE07DC7C5AB"
             {
             "AssemblyRegister" = "3:1"
@@ -5877,15 +5936,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Turuncu Eğitim++"
-        "ProductCode" = "8:{DFC21CF4-AA92-44F5-8C83-249C0896263E}"
-        "PackageCode" = "8:{F5E267FE-6BAF-4C1A-9358-BFDF2274490C}"
+        "ProductCode" = "8:{A20BDBD2-CBC1-47E2-8CDC-91A9EEC0B2C2}"
+        "PackageCode" = "8:{877415AE-51B6-4716-8634-473E0E558E92}"
         "UpgradeCode" = "8:{2CABBD93-EBE1-49A0-AB1E-534986A04B26}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:2.2.0"
+        "ProductVersion" = "8:2.3.0"
         "Manufacturer" = "8:Mehmet Ali DAL"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -5893,7 +5952,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:Mehmet Ali DAL"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:2.2.0"
+        "ARPCOMMENTS" = "8:2.3.0"
         "ARPURLINFOABOUT" = "8:"
         "ARPPRODUCTICON" = "8:_E28BB8C7B0A34209BB568225EFD87FE2"
         "ARPIconIndex" = "3:0"
